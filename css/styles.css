@@ -1,0 +1,17 @@
+:root {
+    --main-color: #333;
+    --accent-color: #F38181;
+    --add-color: #B6B6B6;
+}
+header p, header li {
+    color: #95E1D3;
+}
+h2, h3 {
+    color: var(--main-color);
+}
+main p {
+    color: var(--add-color);
+}
+span {
+    font-style: italic;
+}
