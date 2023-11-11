@@ -3,15 +3,39 @@
     --accent-color: #F38181;
     --add-color: #B6B6B6;
 }
+body {
+    font-family:Montserrat, sans-serif ; 
+}
 header p, header li {
     color: #95E1D3;
+}
+.nav-link {
+    font-family: inherit;
+    font-weight: 400;
+}
+.services-title, .team-name, .copyright {
+    font-weight: 400;
+}
+.services-info, .team-info {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+.team-speciality, .input-email::placeholder {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.logo, .services-main-title, .team-title, .sub-btn{
+    font-family: inherit;
+    font-weight: 700;
+}
+.services-title-span, .team-title-span {
+    font-family:Kaushan Script, serif;
+    font-weight: 400;
 }
 h2, h3 {
     color: var(--main-color);
 }
 main p {
     color: var(--add-color);
-}
-span {
-    font-style: italic;
 }
