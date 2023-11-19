@@ -1,41 +1,90 @@
 :root {
-    --main-color: #333;
-    --accent-color: #F38181;
-    --add-color: #B6B6B6;
+  --main-color: #333;
+  --accent-color: #f38181;
+  --add-color: #b6b6b6;
 }
 body {
-    font-family:Montserrat, sans-serif ; 
+  font-family: Montserrat, sans-serif;
 }
-header p, header li {
-    color: #95E1D3;
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.logo {
+  color: #95e1d3;
+  font-size: 30px;
+  font-weight: 700;
 }
 .nav-link {
-    font-family: inherit;
-    font-weight: 400;
+  font-family: inherit;
+  color: #95e1d3;
+  font-size: 14px;
 }
-.services-title, .team-name, .copyright {
-    font-weight: 400;
+.nav-link:hover {
+  color: var(--accent-color);
 }
-.services-info, .team-info {
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
+.services-main-title,
+.team-title {
+  color: var(--main-color);
+  font-size: 30px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  text-align: center;
 }
-.team-speciality, .input-email::placeholder {
-    font-family: Roboto, sans-serif;
-    font-weight: 300;
-    font-style: italic;
+.services-title-span,
+.team-title-span {
+  font-family: Kaushan Script, serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-variant: normal;
 }
-.logo, .services-main-title, .team-title, .sub-btn{
-    font-family: inherit;
-    font-weight: 700;
+.services-title,
+.team-name {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
-.services-title-span, .team-title-span {
-    font-family:Kaushan Script, serif;
-    font-weight: 400;
+.services-info {
+  line-height: 1.46;
 }
-h2, h3 {
-    color: var(--main-color);
+.team-info {
+  text-align: center;
+}
+.services-info,
+.team-info {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: var(--add-color);
+  font-size: 15px;
+}
+.team-speciality {
+  font-size: 15px;
+}
+.team-speciality,
+.input-email::placeholder {
+  color: var(--add-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.copyright {
+  color: var(--main-color);
+  font-weight: 400;
+}
+.copyright-span {
+  color: var(--accent-color);
+}
+.copyright,
+.input-email::placeholder {
+  font-size: 14px;
+}
+h2,
+h3 {
+  color: var(--main-color);
 }
 main p {
-    color: var(--add-color);
+  color: var(--add-color);
 }
