@@ -88,3 +88,12 @@ h3 {
 main p {
   color: var(--add-color);
 }
+.sub-btn {
+  padding: 11px 38px 12px;
+  color: #fff;
+  background-color: #95e1d3;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+}
