@@ -36,7 +36,7 @@ img {
   text-decoration: none;
 }
 .container {
-  width: 1200px;
+  width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -58,8 +58,7 @@ img {
   overflow: hidden;
 }
 .header {
-  padding-top: 10px;
-  padding-bottom: 12px;
+  padding-top: 17px;
 }
 .logo {
   color: #95e1d3;
@@ -113,7 +112,7 @@ img {
   font-size: 15px;
 }
 .team {
-  padding: 68px 0;
+  padding: 100px 0;
 }
 .team-speciality {
   font-size: 15px;
@@ -124,6 +123,10 @@ img {
   font-family: Roboto, sans-serif;
   font-weight: 300;
   font-style: italic;
+}
+.footer {
+  padding-top: 9px;
+  padding-bottom: 10px;
 }
 .copyright {
   color: var(--main-color);
