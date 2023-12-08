@@ -40,6 +40,10 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
 .services-container {
   width: 1168px;
   padding: 0 15px;
@@ -65,12 +69,16 @@ img {
   font-size: 30px;
   font-weight: 700;
 }
+.nav-list {
+  display: flex;
+  gap: 55px;
+}
 .nav-link {
   font-family: inherit;
   color: #95e1d3;
   font-size: 14px;
 }
-.nav-link:hover {
+.nav-link:hover, .nav-link:focus {
   color: var(--accent-color);
 }
 .services {
@@ -90,6 +98,11 @@ img {
   font-size: 24px;
   font-weight: 400;
   font-variant: normal;
+}
+.services-list {
+  display: flex;
+  gap: 69px;
+  flex-wrap: wrap;
 }
 .services-title,
 .team-name {
@@ -114,6 +127,10 @@ img {
 .team {
   padding: 100px 0;
 }
+.team-list {
+  display: flex;
+  gap: 30px;
+}
 .team-speciality {
   font-size: 15px;
 }
@@ -127,6 +144,10 @@ img {
 .footer {
   padding-top: 9px;
   padding-bottom: 10px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
 }
 .copyright {
   color: var(--main-color);
