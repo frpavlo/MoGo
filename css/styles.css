@@ -40,10 +40,7 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
-.header-container {
-  display: flex;
-  justify-content: space-between;
-}
+
 .services-container {
   width: 1168px;
   padding: 0 15px;
@@ -63,6 +60,11 @@ img {
 }
 .header {
   padding-top: 17px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo {
   color: #95e1d3;
@@ -103,6 +105,7 @@ img {
   display: flex;
   gap: 69px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .services-title,
 .team-name {
