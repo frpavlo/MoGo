@@ -102,7 +102,7 @@ img {
   font-variant: normal;
 }
 .services-list {
-  padding-top: 68px;
+  margin-top: 68px;
   display: flex;
   gap: 69px;
   flex-wrap: wrap;
@@ -134,7 +134,7 @@ img {
   padding: 100px 0;
 }
 .team-list {
-  padding-top: 68px;
+  margin-top: 68px;
   display: flex;
   gap: 30px;
 }
@@ -171,6 +171,9 @@ img {
 .copyright-span {
   color: var(--accent-color);
 }
+.sub-form {
+  display: flex;
+}
 .copyright,
 .input-email::placeholder {
   font-size: 14px;
@@ -201,5 +204,6 @@ main p {
   font-variant: all-small-caps;
 }
 .sub-btn:hover, .sub-btn:focus {
+  cursor: pointer;
   background-color: var(--accent-color);
 }
